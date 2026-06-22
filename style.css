@@ -195,3 +195,16 @@ footer {
     .nav-menu a { margin: 10px 20px; }
     .banner h1 { font-size: 2rem; }
 }
+/* Banner Principal */
+.banner {
+    /* Substituído o link genérico do Unsplash pela imagem oficial do seu projeto */
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('assets/image_733838.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end; /* Ajustado para o botão ficar na parte inferior e não cobrir as letras da imagem */
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+    padding: 60px 20px;
+    margin-top: 60px;
+}
